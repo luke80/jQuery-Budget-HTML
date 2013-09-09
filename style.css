@@ -1,0 +1,167 @@
+body
+{
+    background-image: url('images/money_repeat.jpg');
+    text-align: center;
+    font-family: Verdana,Batang;
+}
+input
+{
+    background-color: #ccc;
+    border: white;
+    color: white;
+}
+button, input[type="button"], input[type="submit"]
+{
+    display: inline-block;
+    border: 2px outset ButtonFace;
+    background-color: ButtonFace;
+    color: ButtonText;
+    padding: 2px 2px 2px 2px;
+    cursor: default
+}
+button:active, input:active[type="button"], input:active[type="submit"]
+{
+    border-style: inset
+}
+.loginform
+{
+    border: 2px groove ThreeDFace;
+    background-color: transparent;
+    color: Black;
+    padding: 2px 2px 2px 2px;
+}
+div.body_div
+{
+    text-align: center;
+}
+.whitebox a:link, .whitebox a:visited
+{
+    color: darkgreen;
+    margin: 3px;
+    padding: 3px;
+    text-decoration: none;
+}
+.whitebox a:hover
+{
+    color: darkred;
+    margin: 3px;
+    padding: 3px;
+    text-decoration: underline;
+}
+.whitebox a:active
+{
+    color: red;
+    margin: 3px;
+    padding: 3px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.negative_amount
+{
+    color: red;
+}
+.positive_amount
+{
+    color: black;
+}
+.whitebox
+{
+    color:black;
+}
+
+.whitebox table
+{
+    border:0 none;
+    border-collapse:collapse;
+    margin:0;
+    padding:0;
+}
+.whitebox td
+{
+    padding:0;
+}
+.whitebox div 
+{
+    padding:1px 3px;
+}
+table.whitebox
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+.whitebox td.tl, .whitebox td.tm, .whitebox td.tr, .whitebox td.ml, .whitebox td.mm, .whitebox td.mr, .whitebox td.bl, .whitebox td.bm, .whitebox td.br
+{
+    background-image:url(images/white_semitrans_fadededge.png);
+    height:16px;
+}
+.whitebox td.tl em, .whitebox td.tr em, .whitebox td.bl em, .whitebox td.br em
+{
+    display:inline;
+    height:16px;
+    width:16px;
+}
+.whitebox td.tm
+{
+    background-position:-16px 0;
+}
+.whitebox td.tr
+{
+    background-position:100% 0;
+}
+.whitebox td.ml
+{
+    background-position:0 -16px;
+    background-image:url(images/white_semitrans_fadededge_m.png);
+}
+.whitebox td.mm
+{
+    background-position:-16px -16px;
+    background-image:url(images/white_semitrans_fadededge_m.png);
+}
+.whitebox td.mr
+{
+    background-position:100% -16px;
+    background-image:url(images/white_semitrans_fadededge_m.png);
+}
+.whitebox td.bl
+{
+    background-position:0 100%;
+}
+.whitebox td.bm
+{
+    background-position:-16px 100%;
+}
+.whitebox td.br
+{
+    background-position:100% 100%;
+}
+.whitebox_contents
+{
+    text-align: center;
+}
+.outputTable table
+{
+    margin:5;
+    padding:5;
+    display:inline;
+}
+.outputTable td
+{
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+.menudiv
+{
+    border: 1px dashed green;
+}
+.mouseoverCat
+{
+    color: black;
+    background-color: #EEDDCC;
+}
+.mouseoutCat
+{
+    color: white;
+    background-color: #848284;
+}
